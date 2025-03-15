@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "xx小助手🚀",
+    "version": "1.0",
+    "description": "xxx",
+    "permissions": ["storage"],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "action": {
+        "default_popup": "index.html"
+    }
+}
