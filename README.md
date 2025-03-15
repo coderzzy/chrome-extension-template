@@ -1,5 +1,6 @@
 ## chrome插件 —— xx助手模板项目
 ### 产品详情
+![Image text](https://github.com/coderzzy/chrome-extension-template/blob/main/promotional_assets/screenshot.jpg)
 - 标题：
 - 摘要：
 - 说明：
